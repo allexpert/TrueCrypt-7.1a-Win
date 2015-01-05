@@ -1,0 +1,70 @@
+﻿Build started 05.01.2015 21:51:26.
+     1>Project "D:\cygwin\usr\local\src\TrueCryptWin\Boot\Windows\Boot.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         md Release 2>NUL:
+         nmake.exe /nologo RELEASE=1
+         
+         md Release_AES 2>NUL:
+         nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=AES
+         
+         md Release_Serpent 2>NUL:
+         nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=SERPENT
+         
+         md Release_Twofish 2>NUL:
+         nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=TWOFISH
+         
+         md Rescue 2>NUL:
+         nmake.exe /nologo RELEASE=1 RESCUE_DISK=1
+         
+         md Rescue_AES 2>NUL:
+         nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=AES RESCUE_DISK=1
+         
+         md Rescue_Serpent 2>NUL:
+         nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=SERPENT RESCUE_DISK=1
+         
+         md Rescue_Twofish 2>NUL:
+         nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=TWOFISH RESCUE_DISK=1
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>makefile(13): fatal error U1050: Environment variable MSVC16_ROOT must point to the installation directory of MS Visual C++ 1.5
+         Stop.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "md Release 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: md Release_AES 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=AES
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: md Release_Serpent 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=SERPENT
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: md Release_Twofish 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=TWOFISH
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: md Rescue 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1 RESCUE_DISK=1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: md Rescue_AES 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=AES RESCUE_DISK=1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: md Rescue_Serpent 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=SERPENT RESCUE_DISK=1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: md Rescue_Twofish 2>NUL:
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake.exe /nologo RELEASE=1 SINGLE_CIPHER=TWOFISH RESCUE_DISK=1" exited with code 2.
+     1>Done Building Project "D:\cygwin\usr\local\src\TrueCryptWin\Boot\Windows\Boot.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.19

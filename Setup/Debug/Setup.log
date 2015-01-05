@@ -1,0 +1,17 @@
+﻿Build started 05.01.2015 21:53:30.
+     1>Project "D:\cygwin\usr\local\src\TrueCryptWin\Setup\Setup.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Setup.unsuccessfulbuild".
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Common /I..\Crypto /I..\ /ZI /nologo /W4 /WX- /Od /Oy- /D SETUP /D WIN32 /D DEBUG /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4057 /wd4100 /wd4127 /wd4201 /wd4505 /wd4701 /wd4706 /analyze- /errorReport:prompt ..\Common\Dlgcode.c ComSetup.cpp
+         Dlgcode.c
+     1>d:\cygwin\usr\local\src\truecryptwin\common\securitytoken.h(34): fatal error C1083: Cannot open include file: 'pkcs11.h': No such file or directory
+         Generating Code...
+         Compiling...
+         ComSetup.cpp
+         Generating Code...
+     1>Done Building Project "D:\cygwin\usr\local\src\TrueCryptWin\Setup\Setup.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:22.13

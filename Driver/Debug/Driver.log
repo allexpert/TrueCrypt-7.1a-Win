@@ -1,0 +1,22 @@
+﻿Build started 05.01.2015 21:51:29.
+     1>Project "D:\cygwin\usr\local\src\TrueCryptWin\Driver\Driver.vcxproj" on node 4 (build target(s)).
+     1>Build:
+         echo ------ Building truecrypt.sys: Debug x86 ------
+         cmd.exe /c BuildDriver.cmd -build -debug -x86 "D:\cygwin\usr\local\src\TrueCryptWin\\Common" "D:\cygwin\usr\local\src\TrueCryptWin\\Crypto" "D:\cygwin\usr\local\src\TrueCryptWin\Driver\"
+         if errorlevel 1 exit %errorlevel%
+         echo.
+         echo ------ Building truecrypt.sys: Debug x64 ------
+         BuildDriver.cmd -build -debug -x64 "D:\cygwin\usr\local\src\TrueCryptWin\\Common" "D:\cygwin\usr\local\src\TrueCryptWin\\Crypto" "D:\cygwin\usr\local\src\TrueCryptWin\Driver\"
+         ------ Building truecrypt.sys: Debug x86 ------
+     1>BuildDriver.cmd : error : Windows Driver Development Kit not found in the default directory. Set WINDDK_ROOT environment variable to point to your Windows DDK installation directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "echo ------ Building truecrypt.sys: Debug x86 ------
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: cmd.exe /c BuildDriver.cmd -build -debug -x86 "D:\cygwin\usr\local\src\TrueCryptWin\\Common" "D:\cygwin\usr\local\src\TrueCryptWin\\Crypto" "D:\cygwin\usr\local\src\TrueCryptWin\Driver\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: if errorlevel 1 exit %errorlevel%
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: echo.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: echo ------ Building truecrypt.sys: Debug x64 ------
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: BuildDriver.cmd -build -debug -x64 "D:\cygwin\usr\local\src\TrueCryptWin\\Common" "D:\cygwin\usr\local\src\TrueCryptWin\\Crypto" "D:\cygwin\usr\local\src\TrueCryptWin\Driver\"" exited with code 1.
+     1>Done Building Project "D:\cygwin\usr\local\src\TrueCryptWin\Driver\Driver.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.64

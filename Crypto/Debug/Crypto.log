@@ -1,0 +1,46 @@
+﻿Build started 05.01.2015 21:51:27.
+     1>Project "D:\cygwin\usr\local\src\TrueCryptWin\Crypto\Crypto.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Crypto.unsuccessfulbuild".
+       CustomBuild:
+         Performing Custom Build Tools
+         Aes_hw_cpu.asm 
+         Performing Custom Build Tools
+         Aes_x86.asm 
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\cygwin\usr\local\src\TrueCryptWin\Crypto\\.. /ID:\cygwin\usr\local\src\TrueCryptWin\Crypto\\..\Common /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D DEBUG /D _DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /MTd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /wd4100 /wd4127 /wd4201 /analyze- /errorReport:prompt Aeskey.c Aestab.c Blowfish.c Cast.c Des.c Rmd160.c Serpent.c Sha1.c Sha2.c Twofish.c Whirlpool.c
+         Whirlpool.c
+         Twofish.c
+         Sha2.c
+         Sha1.c
+         Serpent.c
+         Rmd160.c
+         Des.c
+         Cast.c
+         Blowfish.c
+         Aestab.c
+         Aeskey.c
+         Generating Code...
+       Lib:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Debug\Crypto.lib" /NOLOGO D:\cygwin\usr\local\src\TrueCryptWin\Crypto\Debug\\Aes_hw_cpu.obj
+         D:\cygwin\usr\local\src\TrueCryptWin\Crypto\Debug\\Aes_x86.obj
+         Debug\Aeskey.obj
+         Debug\Aestab.obj
+         Debug\Blowfish.obj
+         Debug\Cast.obj
+         Debug\Des.obj
+         Debug\Rmd160.obj
+         Debug\Serpent.obj
+         Debug\Sha1.obj
+         Debug\Sha2.obj
+         Debug\Twofish.obj
+         Debug\Whirlpool.obj
+         Crypto.vcxproj -> D:\cygwin\usr\local\src\TrueCryptWin\Crypto\Debug\Crypto.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Crypto.unsuccessfulbuild".
+         Touching "Debug\Crypto.lastbuildstate".
+     1>Done Building Project "D:\cygwin\usr\local\src\TrueCryptWin\Crypto\Crypto.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.52

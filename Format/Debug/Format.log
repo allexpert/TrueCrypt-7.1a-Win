@@ -1,0 +1,43 @@
+﻿Build started 05.01.2015 21:52:10.
+     1>Project "D:\cygwin\usr\local\src\TrueCryptWin\Format\Format.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Format.unsuccessfulbuild".
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /W1 /nologo /char signed /env win32 /h "FormatCom_h.h" /tlb "D:\cygwin\usr\local\src\TrueCryptWin\/Format/Format.tlb" FormatCom.idl 
+         Processing .\FormatCom.idl
+         FormatCom.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing ..\Common\Password.h
+         Password.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Common /I..\Crypto /I..\ /ZI /nologo /W4 /WX- /Od /Oy- /D VOLFORMAT /D WIN32 /D DEBUG /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4057 /wd4100 /wd4127 /wd4201 /wd4204 /wd4701 /wd4706 /analyze- /errorReport:prompt ..\Common\BootEncryption.cpp ..\Common\Dlgcode.c ..\Common\Keyfiles.c ..\Common\SecurityToken.cpp FormatCom.cpp Tcformat.c
+         Tcformat.c
+         SecurityToken.cpp
+     1>d:\cygwin\usr\local\src\truecryptwin\common\securitytoken.h(34): fatal error C1083: Cannot open include file: 'pkcs11.h': No such file or directory
+         Keyfiles.c
+     1>d:\cygwin\usr\local\src\truecryptwin\common\securitytoken.h(34): fatal error C1083: Cannot open include file: 'pkcs11.h': No such file or directory
+         Dlgcode.c
+     1>d:\cygwin\usr\local\src\truecryptwin\common\securitytoken.h(34): fatal error C1083: Cannot open include file: 'pkcs11.h': No such file or directory
+         BootEncryption.cpp
+         Generating Code...
+         Compiling...
+         FormatCom.cpp
+         Generating Code...
+     1>Done Building Project "D:\cygwin\usr\local\src\TrueCryptWin\Format\Format.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:18.22
